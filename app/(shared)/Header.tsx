@@ -2,7 +2,7 @@
 import React from 'react'
 import Navbar from './Navbar';
 import Avatar from 'react-avatar';
-import UserProfileIcon from '../(home)/UserProfileIcon';
+import UserProfileIcon from '../(home)/icons/UserProfileIcon';
 
 type Props = {}
 
