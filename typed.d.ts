@@ -1,6 +1,6 @@
 import {Models} from "appwrite"
 
-export type BoardType = {
+export interface BoardType extends Models {
     $collectionId:string,
     $createdAt : string,
     $databaseId : string,
@@ -14,5 +14,6 @@ export type BoardType = {
 
 export type BoardState ={
     board : Models.Document[],
-    fetchBoard: () => Promise<void>
+    fetchBoard: () => Promise<void>,
+    setBoard: (board:Models.Document[]) => void
 }

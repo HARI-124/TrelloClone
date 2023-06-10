@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 import Image from 'next/image'
-import SearchIcon from '../(home)/icons/SearchIcon'
+import SearchIcon from '../icons/SearchIcon';
 import Avatar from 'react-avatar'
 
 type Props = {}
