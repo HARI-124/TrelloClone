@@ -1,17 +1,15 @@
-import React from 'react'
-import {DragDropContext,Droppable} from "react-beautiful-dnd"
+// import React from 'react'
+// import {DragDropContext,Droppable} from "react-beautiful-dnd"
 
+// type Props = {}
 
-type Props = {}
+// const Board = (props: Props) => {
+//   return (
+//     <DragDropContext>
+//                 <Droppable droppableId='board' direction='horizontal' type='column'  >
 
-const Board = (props: Props) => {
-  return (
-    <DragDropContext>
-    <Droppable droppableId='board' direction='horizontal' type='column'  >
+//                      </Droppable>
+//               </DragDropContext>
+//   )
 
-    </Droppable>
-    </DragDropContext>
-  )
-}
-
-export default Board
+// export default Board
