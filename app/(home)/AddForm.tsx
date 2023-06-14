@@ -18,7 +18,7 @@ const AddForm = (props: Props) => {
   const [data, setData] = React.useState<DataType>({ title: '', Image: '',status:props.status });
 
   async function handleSubmit(e:React.FormEvent) {
-    // e.preventDefault()
+    e.preventDefault()
     console.log(data)
     await databases.createDocument(
       process.env.NEXT_PUBLIC_DATABASE_ID!,
@@ -28,7 +28,7 @@ const AddForm = (props: Props) => {
 
     )
     
-    props.onClose()
+    // props.onClose()
   
   }
 
